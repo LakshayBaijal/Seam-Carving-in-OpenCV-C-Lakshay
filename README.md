@@ -15,7 +15,7 @@ Seam: A seam is a connected path of pixels from the top to the bottom of an imag
 
 - For Reducing Size: The seam with the least energy is removed, reducing the image size by one column or row without significantly affecting the important.
 
-To implement this program You need to install OpenCV on Unbuntu or Windows and through CMake create Built in directory which contains files for OpenCV.
+To implement this program You need to install OpenCV on Unbuntu or Windows and through CMake create Build in directory which contains files for OpenCV.
 
 After integrating OpenCV Go to Terminal inside Built Type
 ```bash
