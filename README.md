@@ -4,7 +4,8 @@
 
 Seam carving is a content-aware image resizing technique that allows you to reduce or enlarge the size of an image without distorting its important content. Instead of uniformly scaling the entire image, seam carving works by identifying and removing (or adding) paths of least importance called "seams." This technique is particularly useful for resizing images while preserving important features like people, objects, or text.
 
-# Key Concepts of Seam Carving: Seam: A seam is a connected path of pixels from the top to the bottom of an image (for vertical seams) or from the left to the right (for horizontal seams). Each seam contains one pixel per row (for vertical) or one pixel per column (for horizontal), and the goal is to identify the "least important" seam, which is then removed or duplicated.
+# Key Concepts of Seam Carving: 
+Seam: A seam is a connected path of pixels from the top to the bottom of an image (for vertical seams) or from the left to the right (for horizontal seams). Each seam contains one pixel per row (for vertical) or one pixel per column (for horizontal), and the goal is to identify the "least important" seam, which is then removed or duplicated.
 
 - Energy Function: Seam carving requires an energy function to identify the importance of each pixel in the image. Commonly used energy functions include:Gradient Magnitude: The magnitude of the gradient at each pixel gives an indication of how "busy" that pixel is. Pixels in smooth areas have low energy, while those near edges or important features have high energy.
 
